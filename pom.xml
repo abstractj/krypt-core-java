@@ -32,10 +32,19 @@
         <dependency>
             <groupId>rubygems</groupId>
             <artifactId>rspec</artifactId>
-            <version>2.13.0</version>
+            <version>2.7.0</version>
             <type>gem</type>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>rubygems</groupId>
+            <artifactId>jruby-openssl</artifactId>
+            <version>0.8.8</version>
+            <type>gem</type>
+            <scope>test</scope>
+        </dependency>
+
         <dependency>
             <groupId>rubygems</groupId>
             <artifactId>krypt-provider-jdk</artifactId>
