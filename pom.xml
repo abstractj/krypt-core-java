@@ -86,7 +86,7 @@
                             <goal>test</goal>
                         </goals>
                         <configuration>
-                            <args>spec/java</args>
+                            <args>spec/</args>
                             <jrubyVersion>1.7.3</jrubyVersion>
                             <gemHome>${project.build.directory}/rubygems</gemHome>
                             <gemPath>${project.build.directory}/rubygems</gemPath>
